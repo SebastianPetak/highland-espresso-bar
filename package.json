@@ -1,0 +1,19 @@
+{
+  "name": "highland-espresso-bar",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SebastianPetak/highland-espresso-bar.git"
+  },
+  "author": "Sebastian Petak",
+  "license": "SEE LICENSE IN LICENSE.txt",
+  "bugs": {
+    "url": "https://github.com/SebastianPetak/highland-espresso-bar/issues"
+  },
+  "homepage": "https://github.com/SebastianPetak/highland-espresso-bar#readme"
+}
