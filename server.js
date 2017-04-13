@@ -3,11 +3,15 @@ const app = express();
 const port = process.env.PORT || 8001;
 const path = require('path');
 
-// view engine setup ==========================================================
-app.set('views engine', 'ejs');
+const routes = require('./app/routes.js');
 
-// setup static files ========================================================
+// view engine setup ==========================================================
+app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'views'));
 
+// setup static files ========================================================
+
+
 // Launch =====================================================================
+routes(app);
 app.listen(port);
