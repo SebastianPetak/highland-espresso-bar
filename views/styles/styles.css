@@ -42,12 +42,7 @@ body {
 	text-align: left;
 }
 
-#food-column {
-	padding-left: 6rem;
-	padding-right: 6rem;
-}
-
-#drinks-column {
+.menu-column {
 	padding-left: 6rem;
 	padding-right: 6rem;
 }
@@ -57,7 +52,11 @@ body {
 }
 
 .item {
-	margin-bottom: 2rem;
+	margin-bottom: 1.5rem;
+}
+
+.item-name {
+	color: red;
 }
 
 .price {
