@@ -1,64 +1,73 @@
 body {
 	background-color: white;
 }
-
 /* Nav Bar ================================================================= */
 .top-bar {
 	background-color: #2F2F2F;
 }
-
 .top-bar li {
 	background-color: #2F2F2F;
 }
-
 .top-bar li a {
 	color: white;
 }
-
 /* Welcome ================================================================= */
 #top {
 	text-align: center;
 	color: white;
-	background-image: url('coffeeForegroundLeft.jpg');
+	background-image: url('coffeeForeground1.jpg');
 	background-size: cover;
-	min-height: 55rem;
+	min-height: 55em;
 	background-repeat: no-repeat;
 	object-fit: fill;
 }
-
 /* Menu ==================================================================== */
 .menu-section {
 	background-color: white;
 	color: black;
+	font-family: 'Viga', sans-serif;
 }
-
 .menu-title {
 	text-align: center;
-	margin-top: 4rem;
-	margin-bottom: 4rem;
+	margin-top: 2em;
+	margin-bottom: 2em;
+	font-family: 'Viga', sans-serif;
 }
-
-.menu-food-drink-title {
-	text-align: left;
+#daily-special {
+	text-align: center;
+	font-family: 'Viga', sans-serif;
+}
+#menu-drinks-title {
+	margin: 1em;
+}
+.menu-section-title {
+	text-align: center;
+	font-family: 'Viga', sans-serif;
+}
+.menu-info {
+	text-align: center;
 }
 
 .menu-column {
-	padding-left: 6rem;
-	padding-right: 6rem;
+	padding-left: 6em;
+	padding-right: 6em;
 }
-
+@media screen and (max-width: 39.9375em) {
+	.menu-column {
+		padding-left: 1em;
+		padding-right: 1em;
+	}
+}
 .menu-sub-heading {
 	text-align: left;
+	font-family: 'Viga', sans-serif;
 }
-
 .item {
-	margin-bottom: 1.5rem;
+	margin-bottom: 1.5em;
 }
-
 .item-name {
 	color: red;
 }
-
 .price {
 	float: right
 }
