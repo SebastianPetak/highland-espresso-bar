@@ -33,13 +33,6 @@ body {
 	margin-bottom: 2em;
 	font-family: 'Viga', sans-serif;
 }
-#daily-special {
-	text-align: center;
-	font-family: 'Viga', sans-serif;
-}
-#menu-drinks-title {
-	margin: 1em;
-}
 .menu-section-title {
 	text-align: center;
 	font-family: 'Viga', sans-serif;
@@ -47,7 +40,6 @@ body {
 .menu-info {
 	text-align: center;
 }
-
 .menu-column {
 	padding-left: 6em;
 	padding-right: 6em;
@@ -70,4 +62,19 @@ body {
 }
 .price {
 	float: right
+}
+#menu-pastries {
+	text-align: center;
+	margin-top: 4em;
+	margin-bottom: 4em;
+}
+#daily-special {
+	text-align: center;
+	font-family: 'Viga', sans-serif;
+}
+#menu-drinks-title {
+	margin-top: .5em;
+}
+#other-drinks {
+	text-align: center;
 }
