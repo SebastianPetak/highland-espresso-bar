@@ -1,6 +1,15 @@
 <!-- nav.ejs, top navigation for all pages-->
 
-<div class="top-bar">
+<!-- Sticky mobile: ensures menu sticks to top of screen when scrolling ===-->
+
+<div class="title-bar" data-responsive-toggle="navigation-bar"
+	data-hide-for="medium">
+	<button class="menu-icon" type="button" data-toggle="navigation-bar"></button>
+	<div class="title-bar-title">Menu</div>
+</div>
+
+<!-- Desktop Menu =========================================================-->
+<div class="top-bar" id="navigation-bar">
 	<div class="top-bar-left">
 		<ul class="menu">
 			<li class="menu-text"><a href="#">Highland Espresso Bar</a></li>
@@ -10,7 +19,7 @@
 		<ul class="menu">
 			<li><a href="#">Home</a></li>
 			<li><a href="#">Menu</a></li>
-			<li><a href="#">About</a></li>
+			<li><a href="#">Location & Hours</a></li>
 		</ul>
 	</div>
 </div>
