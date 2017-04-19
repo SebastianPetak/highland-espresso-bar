@@ -87,10 +87,10 @@ body {
 	font-family: 'Viga', sans-serif;
 }
 #location-column {
-	margin-top: 2em;
 }
 #loc-hours-title {
 	font-family: 'Viga', sans-serif;
+	margin-bottom: 2em;
 }
 #physical-address {
 	margin-bottom: 1em;
@@ -117,7 +117,6 @@ body {
 	text-align: center;
 }
 #hours-column {
-	margin-top: 2em;
 	text-align: center;
 }
 @media screen and (max-width: 39.9375em) {
