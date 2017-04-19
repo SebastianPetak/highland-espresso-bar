@@ -12,18 +12,89 @@
 </head>
 <body>
 
-	<!-- Load Navigation partial from partials folder -->
-	<% include ./partials/nav %>
+	<!-- Navigation ==========================================================-->
+	<% include ./partials/nav %> <!-- Load navigation partial -->
 
 	<main>
-		<!-- TOP -->
+		<!-- TOP ===============================================================-->
 		<div id="top">
 			<h1>test</h1>
 		</div>
 
 		<!-- Menu ==============================================================-->
 		<div class="menu-section">
-			<% include ./partials/menu %>
+			<% include ./partials/menu %> <!-- Load menu partial -->
+		</div>
+
+		<!-- Location and Hours ================================================-->
+		<div id="location-hours-section">
+			<div class="row expanded">
+				<div class="small-12 columns">
+					<h2 id="loc-hours-title">Location & Hours</h2>
+				</div>
+			</div>
+			<!-- Location Column =================================================-->
+			<div class="row expanded">
+				<div class="small-12 large-6 columns" id="location-column">
+					<p id="physical-address">45 S Basset St, Madison, WI 53703<br>
+					<i>Corner of N Basset St. and W Main St.</i></p>
+					<img src="outside.jpg" alt="Entrance of Highland Espresso"
+					id="entrance-image" />
+					<a class="button large" id="directions-link" href="https://www.google.com/maps/dir//Highland+Espresso+Bar,+45+S+Bassett+St,+Madison,+WI+53703/@43.0755545,-89.3977655,15z/data=!4m9!4m8!1m0!1m5!1m1!1s0x88065330854d35a9:0x6252c50986011bdd!2m2!1d-89.389607!2d43.0694599!3e0">Get Directions</a>
+				</div>
+			<!-- Hours Column ====================================================-->
+				<div class="small-12 large-6 columns" id="hours-column">
+					<table id="hours-table">
+						<thead>
+							<tr>
+								<th class="hours-table-headings">Day</th>
+								<th class="hours-table-headings">Open</th>
+								<th class="hours-table-headings">close</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Monday</td>
+								<td>6:30am</td>
+								<td>2:00pm</td>
+							</tr>
+							<tr>
+								<td>Tuesday</td>
+								<td>6:30am</td>
+								<td>5:00pm</td>
+							</tr>
+							<tr>
+								<td>Wednesday</td>
+								<td>6:30am</td>
+								<td>5:00pm</td>
+							</tr>
+							<tr>
+								<td>Thursday</td>
+								<td>6:30am</td>
+								<td>5:00pm</td>
+							</tr>
+							<tr>
+								<td>Friday</td>
+								<td>6:30am</td>
+								<td>7:00pm</td>
+							</tr>
+							<tr>
+								<td>Saturday</td>
+								<td>6:30am</td>
+								<td>7:00pm</td>
+							</tr>
+							<tr>
+								<td>Sunday</td>
+								<td>7:00am</td>
+								<td>5:00pm</td>
+								<td></td>
+							</tr>
+						</tbody>
+					</table>
+
+				</div>
+			</div>
+
 		</div>
 
 	</main>

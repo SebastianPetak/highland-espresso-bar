@@ -78,3 +78,58 @@ body {
 #other-drinks {
 	text-align: center;
 }
+
+/* Location and Hours section ============================================== */
+/* Location Column ========================================================= */
+#location-hours-section {
+	margin-top: 5em;
+	text-align: center;
+	font-family: 'Viga', sans-serif;
+}
+#location-column {
+	margin-top: 2em;
+}
+#loc-hours-title {
+	font-family: 'Viga', sans-serif;
+}
+#physical-address {
+	margin-bottom: 1em;
+}
+#entrance-image {
+	padding-left: 4em;
+	padding-right: 4em;
+	text-align: center;
+}
+@media screen and (max-width: 39.9375em) {
+	#entrance-image {
+		padding-left: 1em;
+		padding-right: 1em;
+	}
+}
+#directions-link {
+	margin-top: 1em;
+	margin-bottom: 2em;
+	background-color: #972E2E;
+}
+/* Hours column ============================================================ */
+.hours-table-headings {
+	font-weight: 400;
+	text-align: center;
+}
+#hours-column {
+	margin-top: 2em;
+	text-align: center;
+}
+@media screen and (max-width: 39.9375em) {
+	#hours-column {
+		margin-top: 0em;
+	}
+}
+#hours-table {
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+#hours-table tr {
+	height: 3em;
+}
