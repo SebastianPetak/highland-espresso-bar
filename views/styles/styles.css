@@ -126,9 +126,15 @@ body {
 	}
 }
 #hours-table {
-	width: 90%;
-	margin-left: 5%;
-	margin-right: 5%;
+	padding-left: 4em;
+	padding-right: 4em;
+	width: 100%;
+}
+@media screen and (max-width: 39.9375em) {
+	#hours-table {
+		padding-left: 1em;
+		padding-right: 1em;
+	}
 }
 #hours-table tr {
 	height: 3em;
