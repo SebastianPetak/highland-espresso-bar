@@ -13,6 +13,7 @@ app.set('views', path.join(__dirname, 'views'));
 // setup static files =========================================================
 app.use(express.static(path.join(__dirname, 'views/styles')));
 app.use(express.static(path.join(__dirname, 'views/assets')));
+app.use(express.static(path.join(__dirname, 'views/js')));
 
 // serve Favicon ==============================================================
 app.use(favicon(path.join(__dirname, 'views', 'assets', 'coffee-favicon',
