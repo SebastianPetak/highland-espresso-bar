@@ -37,13 +37,13 @@
 }
 @media screen and (min-width: 40em) and (max-width: 63.9375em) {
 	#top-bar-menu a {
-		margin-left: 1em;
+		margin-left: 0em;
 	}
 	.top-bar-left {
 		margin-left: .5em;
 	}
 	.top-bar-right {
-		margin-right: .5em;
+		margin-right: 0em;
 	}
 }
 #top-bar-menu li.selected a {
@@ -60,15 +60,18 @@
 .title-bar-title {
 	font-weight: 400; /* Reduce mobiles 'menu' button text */
 }
+.title-bar {
+  background-color: #191919;
+}
 #mobile-drop-down {
 	background-color: #191919;
 	font-family: 'Viga', sans-serif;
 	color: white;
 }
 #mobile-drop-down a {
-  font-family: "lato", sans-serif;
+  font-family: 'Viga', sans-serif;
   color: white;
-  border-bottom: solid 3px RGB(9,9,9);
+  border-top: solid 1px RGB(9,9,9);
 }
 /* END NAVIGATION */
 /* Welcome ================================================================= */
