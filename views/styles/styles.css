@@ -1,16 +1,76 @@
-body {
-	background-color: white;
+/* NAVIGATION */
+/* sticky-mobilemenu ensures menu stays at top of screen when scrolling */
+#sticky-mobilemenu {
+  margin: 0px 0px 1em 0px !important;
+  width: 100%;
 }
-/* Nav Bar ================================================================= */
-.top-bar {
-	background-color: #2F2F2F;
+#top-bar-menu {
+  background-color: #191919;
+  height: 4em; /* was 2.5 */
 }
-.top-bar li {
-	background-color: #2F2F2F;
+#top-bar-menu ul {
+	margin: 0; /* vertically center navbar text */
 }
-.top-bar li a {
+#top-bar-menu li {
+  background-color: #191919;
+  height: 100%;
+	font-size: 1em;
+  padding: 0;
+  margin: 0;
+}
+.top-bar-left {
+  margin-left: 4em;
+}
+.top-bar-right {
+	margin-right: 4em;
+}
+#top-bar-menu a {
+  background-color: #191919;
+  color: #fdfae7;
+  line-height: normal; /* for vertically centering github text and icon */
+  font-family: 'Viga', sans-serif;
+  letter-spacing: 1px;
+  margin-left: 3em;
+  height: 100%;
+	padding: 10px 10px; /* vertically center navbar text */
+	display:inline-block; /* vertically center navbar text */
+}
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+	#top-bar-menu a {
+		margin-left: 1em;
+	}
+	.top-bar-left {
+		margin-left: .5em;
+	}
+	.top-bar-right {
+		margin-right: .5em;
+	}
+}
+#top-bar-menu li.selected a {
+  color: #a0a0a0;
+}
+#top-bar-menu li:hover a {
+  color: #972E2E;
+  transition: 0.2s;
+}
+/* mobile dropdown */
+.title-bar {
+  font-family: 'Viga', sans-serif;
+}
+.title-bar-title {
+	font-weight: 400; /* Reduce mobiles 'menu' button text */
+}
+#mobile-drop-down {
+	background-color: #191919;
+	font-family: 'Viga', sans-serif;
 	color: white;
 }
+#mobile-drop-down a {
+  font-family: "lato", sans-serif;
+  color: white;
+  border-bottom: solid 3px RGB(9,9,9);
+}
+/* END NAVIGATION */
 /* Welcome ================================================================= */
 #top {
 	text-align: center;
@@ -111,6 +171,10 @@ body {
 	margin-bottom: 2em;
 	background-color: #972E2E;
 }
+#location-column a:hover {
+  background-color: #a14242;
+  transition: 0.2s;
+}
 /* Hours column ============================================================ */
 .hours-table-headings {
 	font-weight: 400;
@@ -138,3 +202,45 @@ body {
 #hours-table tr {
 	height: 3em;
 }
+
+/* FOOTER ==================================================================*/
+.footer {
+  font-family: 'Viga', sans-serif;
+  color: white;
+  background-color: #191919;
+  text-align: center;
+  font-size: 1.2em;
+  padding-top: 2em;
+}
+.email-button {
+  background-color: #972E2E;
+}
+.email a:hover {
+  background-color: #a14242;
+  transition: 0.2s;
+}
+#social-media-section a {
+  color: white;
+}
+#social-media-section a:hover {
+  color: #a14242;
+  transition: 0.2s;
+}
+#facebookFA {
+  font-size: 2em;
+}
+.copywrite {
+  color: #8f9296;
+  font-size: 0.875em;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+.copywrite a {
+  list-style: none;
+  color: #bfc2c6;
+}
+.copywrite a:hover {
+  color: #972E2E;
+  transition: 0.2s;
+}
+/* END FOOTER */
