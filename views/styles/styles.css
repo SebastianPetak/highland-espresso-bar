@@ -74,15 +74,19 @@
   border-top: solid 1px RGB(9,9,9);
 }
 /* END NAVIGATION */
-/* Welcome ================================================================= */
+/* Welcome/ TOP images ===================================================== */
 #top {
 	text-align: center;
 	color: white;
-	background-image: url('coffeeForeground1.jpg');
+	/* background-image: url('coffeeForeground1.jpg'); */
 	background-size: cover;
-	min-height: 55em;
 	background-repeat: no-repeat;
 	object-fit: fill;
+}
+.top-images {
+  height: 29em; /* 57em total */
+  object-fit: cover;
+  width: 100%;
 }
 /* Menu ==================================================================== */
 .menu-section {
