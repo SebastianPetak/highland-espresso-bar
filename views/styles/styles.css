@@ -75,20 +75,15 @@
 }
 /* END NAVIGATION */
 /* Welcome/ TOP images ===================================================== */
-#top {
-	text-align: center;
-	color: white;
-	/* background-image: url('coffeeForeground1.jpg'); */
-	background-size: cover;
-	background-repeat: no-repeat;
-	object-fit: fill;
-}
 .top-images {
   height: 29em; /* 57em total */
   object-fit: cover;
   width: 100%;
 }
 /* Menu ==================================================================== */
+#menu-link {
+  margin-bottom: 6em;
+}
 .menu-section {
 	background-color: white;
 	color: black;
@@ -96,7 +91,6 @@
 }
 .menu-title {
 	text-align: center;
-	margin-top: 2em;
 	margin-bottom: 2em;
 	font-family: 'Viga', sans-serif;
 }
@@ -148,8 +142,10 @@
 
 /* Location and Hours section ============================================== */
 /* Location Column ========================================================= */
+#location-hours-link {
+  margin-bottom: 6em;
+}
 #location-hours-section {
-	margin-top: 5em;
 	text-align: center;
 	font-family: 'Viga', sans-serif;
 }
