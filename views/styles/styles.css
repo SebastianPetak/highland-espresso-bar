@@ -139,6 +139,11 @@
 #other-drinks {
 	text-align: center;
 }
+@media screen and (max-width: 39.9375em) {
+	#menu-drinks-title {
+		margin-top: 2em;
+	}
+}
 
 /* Location and Hours section ============================================== */
 /* Location Column ========================================================= */
