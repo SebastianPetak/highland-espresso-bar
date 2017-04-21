@@ -227,6 +227,9 @@
   background-color: #a14242;
   transition: 0.2s;
 }
+.email a:focus { /* Prevents button from changing color after clicking link */
+  background-color: #972E2E;
+}
 #social-media-section a {
   color: white;
 }
